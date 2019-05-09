@@ -1,0 +1,12 @@
+.display-container{
+    width: 100%;
+    
+}
+.display{
+    width: 40%;
+    text-align: right;
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+}

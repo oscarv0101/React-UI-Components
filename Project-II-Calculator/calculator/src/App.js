@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+// import NumberButton from "./components/ButtonComponents/NumberButton";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <CalculatorDisplay/>
+      {/* <NumberButton/> */}
     </div>
   );
 };

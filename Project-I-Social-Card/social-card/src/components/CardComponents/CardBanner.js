@@ -3,7 +3,8 @@ import './Card.css';
 
 const CardBanner = () => {
     return(
-        <div className="card-banner" />
+        <a className="card-banner" href="https://reactjs.org">Banner</a>
+        
     );
 }; 
 
