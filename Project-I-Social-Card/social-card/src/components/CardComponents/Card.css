@@ -25,6 +25,7 @@
       border-bottom: .5px solid gray;
       border-radius: 3px;
       margin-bottom: 10px;
+      text-decoration: none;
     }
   
     .card-content h2 {
@@ -32,6 +33,14 @@
     }
   
     .card-content a{
-      text-decoration: none;
+      /* text-decoration: none;
+      color: black; */
+      color: white;
+
+    }
+    .card-content p{
       color: black;
     }
+   .card-content p {
+     text-decoration: none;
+   }

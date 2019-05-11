@@ -1,11 +1,18 @@
 import React from 'react';
 import './Button.css';
 
-// const NumberButton = () => {
-//     return (
-        
-//         <button className={props.buttonStyle}>{props.text}</button>
-//     );
-// };
+const NumberButton = props => {
+    return (
+        <div className="numberContainer">
+        <div className="numberbutton">
+            <button className={`basicButtonStyle ${props.buttonStyle}`}>{props.text}</button>
+        </div>
+        </div>
+    );
+};
 
-// export default NumberButton;
+NumberButton.defaultProps = {
+    buttonStyle: 'white',
+};
+
+export default NumberButton;

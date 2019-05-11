@@ -19,7 +19,7 @@ const App = () => {
         </strong>
       </p>
       <CalculatorDisplay/>
-      {/* <NumberButton/> */}
+      
     </div>
   );
 };
